@@ -1,0 +1,120 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.header {
+    text-align: center;
+    padding: 60px 0;
+    background-color: #1e88e5;
+    color: #fff;
+}
+
+.title {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.title-highlight {
+    color: #ffca28;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+}
+
+.description {
+    padding: 40px;
+    text-align: center;
+}
+
+.description-text {
+    font-size: 1.1rem;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.feature {
+    flex: 1;
+    max-width: 300px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.feature-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.feature-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.feature-description {
+    font-size: 0.9rem;
+}
+
+.cta {
+    text-align: center;
+    padding: 60px 0;
+    background-color: #ffca28;
+}
+
+.cta-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.cta-description {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #1e88e5;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #1565c0;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+.footer p {
+    font-size: 0.9rem;
+}
